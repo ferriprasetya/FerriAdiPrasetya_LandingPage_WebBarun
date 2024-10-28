@@ -19,9 +19,7 @@ export default function RootLayout({
       <body className='antialiased'>
         <Providers>
           <NavbarLayout />
-          <main className='min-h-screen overflow-x-hidden px-6 sm:px-8 md:px-12 lg:px-16'>
-            {children}
-          </main>
+          <main className='min-h-screen overflow-x-hidden'>{children}</main>
           <FooterLayout />
         </Providers>
       </body>

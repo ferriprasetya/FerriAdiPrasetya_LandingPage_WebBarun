@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function HeroSection() {
   return (
-    <div className='py-[10%]'>
+    <div className='px-6 py-[10%] sm:px-8 md:px-12 lg:px-16'>
       <div className='flex flex-col gap-10 md:flex-row md:justify-between'>
         <div className='flex flex-col gap-8 md:w-1/2'>
           <div className='flex flex-col gap-1'>
